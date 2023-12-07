@@ -24,7 +24,7 @@ def organize_desktop(source_folder, destination_folder):
 
         shutil.move(os.path.join(source_folder, file), os.path.join(type_folder, file))
 
-    print("Desktop organized successfully!")
+    print("Desktop posložen!")
 
 if __name__ == "__main__":
     source_folder = os.path.expanduser("~/Desktop")  
